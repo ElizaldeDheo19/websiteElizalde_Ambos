@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+        
+    <head>
+        <div class="navbar">
+            <a href="index.html"><img src="new-au-logo.png" style="width: 65px;height:65px;"></a>
+
+            <a href="index.html" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:x-large; font-weight: bolder;" >Arellano University</a>
+            <a href="News.html" style="font-weight: bold;">News</a>
+            <a href="Programs.html" style="font-weight: bold;">Programs</a>
+            <a href="Contact.html" style="font-weight: bold;">Contact Us</a>
+            <a href="Abou.html" style="font-weight: bold;">About Us</a>
+          </div>
+          <hr>
+
+    </head>
+    <body>
+        <style>
+            .navbar {
+              overflow: hidden;
+  background-color: transparent;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+.main {
+  padding: 17px;
+  margin-top: 30px;
+  height: 1500px;
+}
+body {
+  background-image: url(au-pasay-abad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  
+
+}
+.Contact
+{
+position: relative;
+top: 100px;
+font-family: Verdana;
+font-weight: bold;
+color: white;
+font-size: large;
+
+}
+
+.contact-form {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+  margin: 10px 0;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  width: 150px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+
+        </style>
+<div class="Contact">Enter your Information</div>
+<section class="contact-form">
+    <h2> Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p style="color:white">&copy; Arellano University Jose Abad Santos Campus</p>
+  </footer>
+
+
+    </body>
+    
+    
+</html>
